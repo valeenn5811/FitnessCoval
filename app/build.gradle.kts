@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.fitnesscoval"
-    compileSdk = 23
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.fitnesscoval"
