@@ -1,0 +1,10 @@
+com.example.fitnesscoval
+com.example.fitnesscoval.preferencias
+com.example.fitnesscoval.ui.bbdd
+com.example.fitnesscoval.ui.calculadora
+com.example.fitnesscoval.ui.estadisticas
+com.example.fitnesscoval.ui.login
+com.example.fitnesscoval.ui.planesDietas
+com.example.fitnesscoval.ui.planesEntrenamiento
+com.example.fitnesscoval.ui.registroComidas
+com.example.fitnesscoval.ui.util
