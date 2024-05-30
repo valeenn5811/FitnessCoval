@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_estadísticas"
+            android:icon="@drawable/ic_menu_estadistica"
+            android:title="@string/strResumen" />
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@drawable/ic_menu_calculadora"
+            android:title="@string/str_calculadora" />
+        <item
+            android:id="@+id/nav_planes_entrenamiento"
+            android:icon="@drawable/ic_menu_planes"
+            android:title="@string/menu_entrenamiento" />
+        <item
+            android:id="@+id/nav_diario"
+            android:icon="@drawable/lc_menu_diario"
+            android:title="@string/menu_diario" />
+        <item
+            android:id="@+id/nav_dietas"
+            android:icon="@drawable/lc_menu_dietas"
+            android:title="Dietas" />
+    </group>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FitnessCoval</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_estadisticas">Estadísticas</string>
+    <string name="menu_calculadora">Calculadora</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="str_calculadora">Calculadora</string>
+    <string name="strResumen">Estadísticas</string>
+    <string name="menu_entrenamiento">Planes de Entrenamiento</string>
+    <string name="menu_diario">Diario</string>
+    <string name="seleccione_tipo_comida">Seleccione el tipo de comida</string>
+</resources>

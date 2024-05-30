@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.planesDietas.ConsejosActivity">
+
+    <ImageView
+        android:id="@+id/imageViewConsejos"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/healthy_food"
+        android:contentDescription="Consejos de Dieta"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textViewConsejos"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewConsejos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Consejos para llevar una dieta saludable:\n\n1. Bebe entre 2/3 litros de agua al día.\n\n2. Evita los alimentos procesados y el azúcar excesivo.\n\n3. Haz ejercicio regularmente para complementar tu dieta.\n\n4. Incluye frutas y verduras en cada comida.\n\n5. Limita la ingesta de grasas saturadas y trans.\n\6. Reduce el consumo de sal y azúcares añadidos.\n\n7. No te saltes el desayuno, ya que es una comida importante para comenzar el día con energía.\n\n8. Mantén un diario de alimentos para hacer un seguimiento de tu ingesta nutricional."
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewConsejos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

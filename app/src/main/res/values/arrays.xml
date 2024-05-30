@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_levels">
+        <item>Sedentario</item>
+        <item>Moderado</item>
+        <item>Activo</item>
+        <item>Muy activo</item>
+    </string-array>
+    <string-array name="goals">
+        <item>Mantener peso corporal</item>
+        <item>Bajar grasa corporal</item>
+        <item>Aumentar masa muscular</item>
+    </string-array>
+    <string-array name="deficits">
+        <item>Déficit ligero</item>
+        <item>Déficit moderado</item>
+        <item>Déficit agresivo</item>
+    </string-array>
+    <string-array name="surpluses">
+        <item>Superávit ligero</item>
+        <item>Superávit moderado</item>
+        <item>Superávit agresivo</item>
+    </string-array>
+    <string-array name="tipos_comida">
+        <item>Desayuno</item>
+        <item>Comida</item>
+        <item>Merienda</item>
+        <item>Cena</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="genero_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+        <item>Otre</item>
+    </string-array>
+</resources>

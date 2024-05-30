@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_estadísticas">
+
+    <fragment
+        android:id="@+id/nav_estadísticas"
+        android:name="com.example.fitnesscoval.ui.estadisticas.Estadisticas"
+        android:label="@string/menu_estadisticas"
+        tools:layout="@layout/estadisticas" />
+
+    <fragment
+        android:id="@+id/nav_calculadora"
+        android:name="com.example.fitnesscoval.ui.calculadora.CalculadoraCalorias"
+        android:label="@string/menu_calculadora"
+        tools:layout="@layout/calculadora_calorias" />
+
+    <fragment
+        android:id="@+id/nav_planes_entrenamiento"
+        android:name="com.example.fitnesscoval.ui.planesEntrenamiento.PlanesEntrenamiento"
+        android:label="@string/menu_entrenamiento"
+        tools:layout="@layout/planes_entrenamiento" />
+    <fragment
+        android:id="@+id/nav_diario"
+        android:name="com.example.fitnesscoval.ui.registroComidas.Diario"
+        android:label="Diario"
+        tools:layout="@layout/activity_diario" />
+    <fragment
+        android:id="@+id/nav_dietas"
+        android:name="com.example.fitnesscoval.ui.planesDietas.Dietas"
+        android:label="Dietas"
+        tools:layout="@layout/fragment_dietas" />
+</navigation>
